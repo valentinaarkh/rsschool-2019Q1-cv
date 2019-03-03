@@ -34,6 +34,21 @@ The list of technologies I am familiar with or tried in different projects:
 * Webpack basics
 * React basics
 
+## Code Example
+
+Example of function generating different pictures for cards
+
+```
+  function choosePattern(event){
+  	if ( event.target.classList.contains("card")){
+  		card_pattern.forEach( function(a){
+  			a.classList.remove("active");
+  		});
+  		event.target.classList.add("active");
+  	}
+  }
+```
+
 ## My recent project
 
 I've tried myself as a developer and created a website for small Language studio. This website is simple landing page made on the WordPress CMS:
