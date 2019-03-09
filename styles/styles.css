@@ -1,0 +1,141 @@
+html,body, p, h1,h2,h3, ul{
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 10px;
+}
+body{
+  font-size: 1.6rem;
+  font-family: "Roboto";
+}
+h1{
+  font-size: 3rem;
+  font-family: "Neucha";
+  color: #ff0080;
+}
+h2{
+  font-size: 2rem;
+  font-family: "Neucha";
+  margin: 10px 0;
+}
+ul{
+  list-style: none;
+}
+.menu-section{
+  background: #373435;
+  height: 60px;
+}
+.main-menu{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  color: #fff;
+  justify-content: center;
+}
+.main-menu li{
+  line-height: 60px;
+  padding: 0 15px;
+  transition: all .3s ease;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Neucha";
+  font-weight: bold;
+  font-size: 1.4rem;
+  position: relative;
+}
+.main-menu li::after{
+  content: "";
+  width: 15px;
+  height: 2px;
+  background: #ff0080;
+  position: absolute;
+  top: 46%;
+  right: -8px;
+  -webkit-transform: rotate(90deg) scale(0);
+  -ms-transform: rotate(90deg) scale(0);
+  transform: rotate(90deg) scale(0);
+  transform-origin: center;
+  -webkit-transition: ;
+  -o-transition: ;
+  transition: all .5s ease;
+}
+.main-menu li::before{
+  content: "";
+  width: 15px;
+  height: 2px;
+  background: #ff0080;
+  position: absolute;
+  top: 46%;
+  left: -8px;
+  -webkit-transform: rotate(90deg) scale(0);
+  -ms-transform: rotate(90deg) scale(0);
+  transform: rotate(90deg) scale(0);
+  transform-origin: center;
+  -webkit-transition: ;
+  -o-transition: ;
+  transition: all .5s ease;
+}
+.main-menu li:hover{
+  color: #ff0080;
+}
+.main-menu li:hover::after, .main-menu li:hover::before{
+  -webkit-transform: rotate(90deg) scale(1);
+  -ms-transform: rotate(90deg) scale(1);
+  transform: rotate(90deg) scale(1);
+}
+.content{
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.introduction-section{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  padding: 30px 0;
+}
+.photo-section{
+  width: 30%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+}
+.photo-wrapper{
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.name-section{
+  width: 70%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+}
+.avatar-photo{
+  width: 100%;
+}
+.main-info-line{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  height: 25px;
+  line-height: 25px;
+}
+.main-info{
+  padding: 10px 30px;
+}
+.main-info-title{
+  font-family: "RobotoBold";
+  margin-right: 10px;
+}
