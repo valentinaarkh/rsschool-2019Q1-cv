@@ -1,0 +1,347 @@
+html,body, p, h1,h2,h3, ul{
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 10px;
+  min-height: 100%;
+}
+body{
+  font-size: 1.6rem;
+  font-family: "Roboto";
+  min-height: 100%;
+  position: relative;
+}
+.top-button{
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  width: 32px;
+  z-index: -1;
+  opacity:0;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+.top-button.visible{
+  z-index: 10;
+  opacity: 1;
+}
+.top-button img{
+  width: 100%;
+}
+.main-content-container{
+  min-height: 100%;
+  padding-bottom: 40px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+h1{
+  font-size: 3rem;
+  font-family: "Neucha";
+  color: #ff0080;
+}
+h2{
+  color: #ff0080;
+  font-size: 2rem;
+  font-family: "Neucha";
+  margin: 10px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+p{
+  text-indent: 10px;
+}
+section{
+  padding: 50px 0;
+}
+section:nth-child(2n+1){
+  background: #373435;
+  color: #fff;
+}
+section:nth-child(2n+1) h2{
+  color: #ff0080;
+}
+.code-section{
+  overflow: hidden;
+}
+.description-heading{
+  font-size: 1.8rem;
+  font-family: "RobotoBold";
+  margin: 10px 0;
+  text-align: center;
+}
+.white{
+  color: #fff;
+}
+.pink{
+  color: #ff0080;
+}
+.description{
+  text-align: left;
+}
+ul{
+  list-style: none;
+}
+.menu-section{
+  background: #373435;
+  height: 60px;
+}
+.main-menu{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  color: #fff;
+  justify-content: center;
+}
+.main-menu.visible{
+  right: 0;
+}
+.main-menu li{
+  line-height: 60px;
+  padding: 0 15px;
+  transition: all .3s ease;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Neucha";
+  font-weight: bold;
+  font-size: 1.4rem;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.main-menu li::after{
+  content: "";
+  width: 15px;
+  height: 2px;
+  background: #ff0080;
+  position: absolute;
+  top: 46%;
+  right: -8px;
+  -webkit-transform: rotate(90deg) scale(0);
+  -ms-transform: rotate(90deg) scale(0);
+  transform: rotate(90deg) scale(0);
+  transform-origin: center;
+  -webkit-transition: ;
+  -o-transition: ;
+  transition: all .5s ease;
+}
+.main-menu li::before{
+  content: "";
+  width: 15px;
+  height: 2px;
+  background: #ff0080;
+  position: absolute;
+  top: 46%;
+  left: -8px;
+  -webkit-transform: rotate(90deg) scale(0);
+  -ms-transform: rotate(90deg) scale(0);
+  transform: rotate(90deg) scale(0);
+  transform-origin: center;
+  -webkit-transition: ;
+  -o-transition: ;
+  transition: all .5s ease;
+}
+.main-menu li:hover{
+  color: #ff0080;
+}
+.main-menu li:hover::after, .main-menu li:hover::before{
+  -webkit-transform: rotate(90deg) scale(1);
+  -ms-transform: rotate(90deg) scale(1);
+  transform: rotate(90deg) scale(1);
+}
+.content{
+  max-width: 1024px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.introduction-section{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  padding: 50px 0;
+}
+.introduction-section h2{
+  text-align: left;
+}
+.photo-section{
+  width: 50%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+}
+.photo-wrapper{
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.name-section{
+  width: 50%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.avatar-photo{
+  width: 100%;
+}
+.main-info-line{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  height: 25px;
+  line-height: 25px;
+}
+.main-info{
+  padding: 30px 0;
+}
+.main-info-title{
+  font-family: "RobotoBold";
+  margin-right: 10px;
+}
+.goal-section{
+  text-align: center;
+}
+.half-width-content{
+  width: 50%;
+  padding: 30px 0;
+  margin: 0 auto;
+}
+.skills-list{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skills-list li{
+  display: inline-block;
+  padding: 5px 10px;
+  border: 2px solid #ff0080;
+  margin: 5px;
+  border-radius: 10px;
+  transition: all .3s ease;
+}
+.skills-list li:hover{
+  background: #ff0080;
+  color: #fff;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+pre{
+  color: #fff;
+}
+code{
+  background: #fff;
+  color: #373435;
+}
+.violet{
+  color: #e588f1;
+}
+.yellow{
+  color: #f1c665;
+}
+.green{
+  color: #8ffda1;
+}
+.projects-section{
+  text-align: center;
+}
+.project-img{
+  width: 50%;
+  transition: all .3s ease;
+}
+.project-link:hover img{
+  box-shadow: 0 0 3px 0 #ff0080;
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+}
+.education p{
+  margin: 10px;
+}
+.education li{
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.education li:last-child{
+  margin-bottom: 0;
+}
+.education li a{
+  text-decoration: underline;
+}
+.main-footer{
+  margin-top: -40px;
+  background: #373435;
+  height: 40px;
+  line-height: 40px;
+  color: #575758;
+  font-size: 1.2rem;
+}
+.check-icon{
+  width: 15px;
+  margin-right: 10px;
+}
+.burger-menu {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  right: 25px;
+  top: 13px;
+}
+.burger{
+  position: relative;
+}
+.burger-line {
+  width: 30px;
+  height: 3px;
+  background: #ff0080;
+  margin: 5px 0;
+  display: block;
+  border-radius: 3px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.menu-name {
+  margin-right: 15px;
+}
+.burger-menu.is-open .burger-line:nth-child(1) {
+  transform: rotate(45deg) translateX(5px) translateY(5px);
+}
+.burger-menu.is-open .burger-line:nth-child(2) {
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+}
+.burger-menu.is-open .burger-line:nth-child(3) {
+  transform: rotate(135deg) translateY(6px) translateX(-6px);
+  top: 0;
+  left: 0;
+}
