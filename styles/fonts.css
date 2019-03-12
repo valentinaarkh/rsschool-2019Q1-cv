@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/fonts/RobotoRegular/Roboto-Regular.eot');
+    src: url('../assets/fonts/RobotoRegular/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/RobotoRegular/Roboto-Regular.woff2') format('woff2'),
+        url('../assets/fonts/RobotoRegular/Roboto-Regular.woff') format('woff'),
+        url('../assets/fonts/RobotoRegular/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('../assets/fonts/RobotoBold/Roboto-Bold.eot');
+    src: url('../assets/fonts/RobotoBold/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/RobotoBold/Roboto-Bold.woff2') format('woff2'),
+        url('../assets/fonts/RobotoBold/Roboto-Bold.woff') format('woff'),
+        url('../assets/fonts/RobotoBold/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Neucha';
+    src: url('../assets/fonts/Neucha/Neucha.eot');
+    src: url('../assets/fonts/Neucha/Neucha.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Neucha/Neucha.woff2') format('woff2'),
+        url('../assets/fonts/Neucha/Neucha.woff') format('woff'),
+        url('../assets/fonts/Neucha/Neucha.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
