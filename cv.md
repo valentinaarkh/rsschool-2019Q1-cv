@@ -12,7 +12,7 @@
 
 **GitHub:** https://github.com/valentinaarkh
 
-## My goal
+## ✔️ My goal
 
 The main goal for me in the current moment is to find the job that will be interesting and creative. It's boring to do the same things day after day, I've understand it on my previous work as a hotel receptionist. And that's why I have started to search interesting activity which helps me at the same time to develop mental skills. And because I was really passionate about mathematics at school I've decided to try coding and I really like it. I believe that this sphere helps to develop my mental skills and creativity at the same time, this sphere is developing day after day and that's why you always learn something new. So I really want to connect my life with coding.
 
